@@ -22,12 +22,15 @@ st.image(image="img/image1.jpg")  # 키워드를 사용해서...
 st.image("img/image1.jpg", use_column_width=True)  # 파일 경로 (app.py)
 st.image("img/image1.jpg", width=100)  # 파일 경로 (app.py)
 
+# 제목 마크다운
 st.write("""
-# 가장 큰 제목 
-## 그 다음 큰 제목
-### 그것보단 작은 제목
-#### 좀 더 작은 제목
-##### 이건 없겠지?
+# 가장 큰 제목 (h1 - headline1 - st.title)
+## 그 다음 큰 제목 (h2 - headline2 - st.header)
+### 그것보단 작은 제목 <- 대부분 여기까지만 씀 (h3 - headline3 - st.subheader)
+#### 좀 더 작은 제목 (h4)
+##### 이건 없겠지? (h5)
+###### 이것도 있나? (h6)
+####### 이건 없어.
 """)
 
 
