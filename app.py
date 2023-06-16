@@ -46,7 +46,7 @@ text = """
 취소선 : ~물결표~
 
 """
-
+st.write(text)
 
 # https://imgur.com/
 # streamlit run app.py
