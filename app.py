@@ -7,13 +7,13 @@ import streamlit as st  # streamlit -> import (가져오기) -> as (st 이름)
 
 # st. -> ctrl + space -> 다양한 기능(함수, 메소드)을 가지고 있다
 
-st.title("나의 파이썬 웹 페이지")
-st.header("수업 6일차에 만들었어요")
-st.subheader("그래도 잘 만들었죠?")
-st.write("내가 만든 페이지, 너를 위해 구웠지")
+st.title("Streamlit 이용 웹페이지")
+st.header("Day 8")
+st.subheader("기능에 대해서 배우는 중")
+st.write("sdff")
 
 # 기능이 실행되는 순서대로 화면에서 표현
-st.video("https://www.youtube.com/watch?v=54vt4Nalaa8&list=PLwQjvFya6lZIasjkCXGjcLar6EvI_V6nm&index=2")  # 유튜브 링크
+st.video("https://www.youtube.cozm/watch?v=54vt4Nalaa8&list=PLwQjvFya6lZIasjkCXGjcLar6EvI_V6nm&index=2")  # 유튜브 링크
 st.image("https://cdn.pixabay.com/photo/2023/06/02/14/12/woman-8035772_1280.jpg")  # 인터넷 링크
 st.image("https://i.imgur.com/jorp5JH.png")  # 인터넷 링크
 # 여러 가지 옵션을 넣어서 세부 기능들을 차이
@@ -21,6 +21,15 @@ st.image("img/image1.jpg")  # 파일 경로 (app.py)
 st.image(image="img/image1.jpg")  # 키워드를 사용해서...
 st.image("img/image1.jpg", use_column_width=True)  # 파일 경로 (app.py)
 st.image("img/image1.jpg", width=100)  # 파일 경로 (app.py)
-# https://imgur.com/
 
+st.write("""
+# 가장 큰 제목 
+## 그 다음 큰 제목
+### 그것보단 작은 제목
+#### 좀 더 작은 제목
+##### 이건 없겠지?
+""")
+
+
+# https://imgur.com/
 # streamlit run app.py
